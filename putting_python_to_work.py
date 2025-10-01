@@ -1,6 +1,6 @@
 # Get the radius of the circle from the user
 import math
-# testing grade 12
+# testing grade 13
 radius = float(input("Enter the radius of the circle: "))
 
 # Calculate the diameter of the circle
