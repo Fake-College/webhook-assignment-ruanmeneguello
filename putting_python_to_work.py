@@ -1,9 +1,19 @@
-# TO-DO: get the radius of the circle from the user
+# Get the radius of the circle from the user
+import math
+# testing grade
+radius = float(input("Enter the radius of the circle: "))
 
-# TO-DO: calculate the diameter of the circle
+# Calculate the diameter of the circle
+diameter = 2 * radius
 
-# TO-DO: calculate the circumference of the circle
+# Calculate the circumference of the circle
+circumference = 2 * math.pi * radius
 
-# TO-DO: calculate the area of the circle
+# Calculate the area of the circle
+area = math.pi * radius**2
 
-# TO-DO: print the values for the user
+# Print the values for the user
+print(f"For a circle with radius {radius}:")
+print(f"The diameter is {diameter}")
+print(f"The circumference is {circumference}")
+print(f"The area is {area}")
